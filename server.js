@@ -4,8 +4,8 @@ const cors = require('cors')
 const bodyParser = require('body-parser')
 const mongoose = require('mongoose')
 
-// let uri = 'mongodb+srv://Teekay:' + process.env.PW + '@cluster0.nlm1d.mongodb.net/myFirstDatabase?retryWrites=true&w=majority'
-// mongoose.connect(uri, { useNewUrlParser: true, useUnifiedTopology: true });
+let uri = 'mongodb+srv://Teekay:' + process.env.PW + '@cluster0.nlm1d.mongodb.net/myFirstDatabase?retryWrites=true&w=majority'
+mongoose.connect(uri, { useNewUrlParser: true, useUnifiedTopology: true });
 
 
 
