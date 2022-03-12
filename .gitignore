@@ -1,0 +1,5 @@
+*.env
+node_modules
+.replit
+README.md
+Project Details.txt
