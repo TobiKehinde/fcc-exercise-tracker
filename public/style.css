@@ -27,10 +27,11 @@ h3 {
 }
 
 form {
-  margin-bottom: 25px;
   padding: 15px;
   background-color: #87d37c;
-  display: inline-block;
+  display: block;
+  margin: auto;
+  margin-bottom: 25px;
   width: 100%;
   max-width: 340px;
   border-radius: 5px;
